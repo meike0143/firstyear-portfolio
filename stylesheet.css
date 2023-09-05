@@ -49,19 +49,6 @@ article h2{
 	font-weight: bold;
 }
 
-.personalphotos{
-    width:215px;
-    border-radius: 25px;
-    height: auto;
-}
-
-.personalphotos2{
-    width: 430px;
-    border-radius: 25px;
-    height: 380px;
-    float: right;
-}
-
 section {
 	float: right;
 	background-color: #FAE6B1;
