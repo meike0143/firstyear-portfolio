@@ -1,0 +1,90 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: #31525B;
+	font-family: consolas, monaco, monospace;
+	color: #FFA101;
+}
+
+#container {
+	width: 1200px;
+	height: 1050px;
+	margin: auto;
+	background-color: #31525B ;
+}
+
+hr{
+	border: 2px solid black ;
+}
+
+header {
+	background-color: #FAE6B1 ;	
+	width: 1140px;
+	height: 100px;
+	padding: 15px;
+	margin: 5px;
+	border: 10px solid #FAE6B1;
+	border-radius: 25px;
+	text-align: center; 
+}
+
+header h1 {
+	font-size: 70px;
+}
+
+article {
+	float: left;
+	background-color: #FAE6B1;
+	width: 650px;
+	height: 730px;
+	padding: 15px;
+	border: 10px solid #FAE6B1 ;
+	margin: 5px;
+	border-radius: 25px;
+}
+
+article h2{
+	font-weight: bold;
+}
+
+.personalphotos{
+    width:215px;
+    border-radius: 25px;
+    height: auto;
+}
+
+.personalphotos2{
+    width: 430px;
+    border-radius: 25px;
+    height: 380px;
+    float: right;
+}
+
+section {
+	float: right;
+	background-color: #FAE6B1;
+	width: 430px;
+	height: 730px;
+	padding: 15px;
+	border: 10px solid #FAE6B1;
+	margin: 5px;
+	border-radius: 25px;
+} 
+
+footer {
+	clear: both;
+	background-color: #FAE6B1;
+	padding: 15px;
+	margin: 5px;
+	border: 10px solid #FAE6B1;
+	height: 50px;
+	width: 1140px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 25px;
+	text-align: center;
+}
+
+
