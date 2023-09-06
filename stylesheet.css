@@ -15,7 +15,7 @@ body {
 	background-color: #31525B ;
 }
 
-hr{
+hr {
 	border: 2px solid black ;
 }
 
@@ -34,25 +34,41 @@ header h1 {
 	font-size: 70px;
 }
 
-nav{
+nav {
 	background-color: #FAE6B1;
-	width: 1140px;
-	height: 40px;
+	width: 220px;
+	height: 200px;
 	padding: 15px;
 	margin: 5px;
 	border: 10px solid #FAE6B1;
 	border-radius: 25px;
+    float: right;
 }
 
-nav a{
-	display: block;
+nav a {
+    text-align: center;
+    display: block; 
+    padding: 15px; 
+    text-decoration: none; 
+    height: 10px;
+    border-radius: 25px; 
+    font-family: consolas, monaco, monospace;
+}
+
+nav a:hover {
+    background-color: #eed89d;
+}
+
+.active {
+	background-color: #edcc72; 
+  	color: #FFFFFF;
 }
 
 article {
 	float: left;
 	background-color: #FAE6B1;
-	width: 650px;
-	height: 400px;
+	width: 860px;
+	height: 460px;
 	padding: 15px;
 	border: 10px solid #FAE6B1 ;
 	margin: 5px;
@@ -63,11 +79,26 @@ article h2{
 	font-weight: bold;
 }
 
+.hzlogo {
+	height: 150px;
+	width: 200;
+}
+
+a {
+	text-decoration: none;
+	color: #d98b03;
+}
+
+a:hover {
+	color: #b17103;
+	text-decoration: underline;
+}
+
 section {
 	float: right;
 	background-color: #FAE6B1;
-	width: 430px;
-	height: 400px;
+	width: 220px;
+	height: 200px;
 	padding: 15px;
 	border: 10px solid #FAE6B1;
 	margin: 5px;
@@ -87,5 +118,3 @@ footer {
 	border-radius: 25px;
 	text-align: center;
 }
-
-
