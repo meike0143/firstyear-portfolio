@@ -42,13 +42,16 @@ nav{
 	margin: 5px;
 	border: 10px solid #FAE6B1;
 	border-radius: 25px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
 }
 
 nav ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color:#FAE6B1
+	margin: 0px;
+	padding: 0px;
+	background-color:#FAE6B1;
 }
 
 nav li {
