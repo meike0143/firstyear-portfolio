@@ -10,7 +10,7 @@ body {
 
 #container {
 	width: 1200px;
-	height: 1050px;
+	height: auto;
 	margin: auto;
 	background-color: #31525B ;
 }
@@ -53,17 +53,6 @@ article h2{
 	height: 150px;
 	width: 200;
 }
-
-section {
-	float: right;
-	background-color: #FAE6B1;
-	width: 220px;
-	height: 200px;
-	padding: 15px;
-	border: 10px solid #FAE6B1;
-	margin: 5px;
-	border-radius: 25px;
-} 
 
 footer {
 	clear: both;

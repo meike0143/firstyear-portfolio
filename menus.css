@@ -32,6 +32,7 @@ nav a {
 	text-decoration: none;
 	border: 5px solid #FAE6B1;
 	border-radius: 25px;
+	color: #d98b03;
 }
 
 nav a:hover {
@@ -43,12 +44,23 @@ nav a:hover {
   	color: black;
 }
 
-a {
+.aside-menu {
+	float: right;
+	background-color: #FAE6B1;
+	width: 220px;
+	height: auto;
+	padding: 15px;
+	border: 10px solid #FAE6B1;
+	margin: 5px;
+	border-radius: 25px;
+} 
+
+.aside-menu a {
 	text-decoration: none;
 	color: #d98b03;
 }
 
-section a:hover {
+.aside-menu a:hover {
 	color: #b17103;
 	text-decoration: underline;
 }
