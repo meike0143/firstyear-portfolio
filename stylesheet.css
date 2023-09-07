@@ -36,7 +36,7 @@ header h1 {
 
 nav{
 	width: 1140px;
-	height: 30px;
+	height: 40px;
 	background-color: #FAE6B1;
 	padding: 15px;
 	margin: 5px;
@@ -59,9 +59,11 @@ nav a {
 	display: block;
 	padding: 5px;
 	background-color: #FAE6B1;
-	width: 215px;
+	width: 205px;
 	text-align: center;
 	text-decoration: none;
+	border: 5px solid #FAE6B1;
+	border-radius: 25px;
 }
 
 nav a:hover {
@@ -98,7 +100,7 @@ a {
 	color: #d98b03;
 }
 
-a:hover {
+section a:hover {
 	color: #b17103;
 	text-decoration: underline;
 }
