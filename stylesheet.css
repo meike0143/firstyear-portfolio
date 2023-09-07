@@ -30,7 +30,7 @@ header {
 	text-align: center; 
 }
 
-header h1 {
+h1 {
 	font-size: 70px;
 }
 
@@ -45,13 +45,25 @@ article {
 	border-radius: 25px;
 }
 
-article h2{
+.column {
+	float: left;
+	width: 420px;
+	height: auto;
+	padding: 5px;
+}
+
+h2{
 	font-weight: bold;
 }
 
 .hzlogo {
 	height: 150px;
 	width: 200;
+}
+
+.pfp {
+	width: 420px;
+	height: auto;
 }
 
 footer {
