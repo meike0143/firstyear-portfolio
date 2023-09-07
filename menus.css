@@ -1,22 +1,22 @@
 nav{
 	width: 1140px;
 	min-height: 40px;
-	background-color: #FAE6B1;
+	background-color: #31525B;
 	padding: 15px;
 	margin: 5px;
-	border: 10px solid #FAE6B1;
+	border: 10px solid #31525B;
 	border-radius: 25px;
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0px;
-	box-shadow: 2.5px 5px #edcc72 ;
+	box-shadow: 2.5px 5px #1d3238 ;
 }
 
 nav ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	background-color:#FAE6B1;
+	background-color:#31525B;
 }
 
 nav li {
@@ -26,41 +26,41 @@ nav li {
 nav a {
 	display: block;
 	padding: 5px;
-	background-color: #FAE6B1;
+	background-color: #31525B;
 	width: 205px;
 	text-align: center;
 	text-decoration: none;
-	border: 5px solid #FAE6B1;
+	border: 5px solid #31525B;
 	border-radius: 25px;
-	color: #d98b03;
+	color: #F2EBE5;
 }
 
 nav a:hover {
-    background-color: #eed89d;
+    background-color: #28434a;
 }
 
 .active {
-	background-color: #edcc72; 
-  	color: black;
+	background-color: #1d3238; 
+  	color: #F2EBE5;
 }
 
 .aside-menu {
 	float: right;
-	background-color: #FAE6B1;
+	background-color: #31525B;
 	width: 220px;
 	height: auto;
 	padding: 15px;
-	border: 10px solid #FAE6B1;
+	border: 10px solid #31525B;
 	margin: 5px;
 	border-radius: 25px;
 } 
 
 .aside-menu a {
 	text-decoration: none;
-	color: #bc7804;
+	color: #a19c98;
 }
 
 .aside-menu a:hover {
-	color: #8c5a03;
+	color: #817d7a;
 	text-decoration: underline;
 }
