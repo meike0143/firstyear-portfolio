@@ -82,7 +82,7 @@ article {
 	float: left;
 	background-color: #FAE6B1;
 	width: 860px;
-	height: 460px;
+	min-height: 300px;
 	padding: 15px;
 	border: 10px solid #FAE6B1 ;
 	margin: 5px;
