@@ -59,11 +59,60 @@ h2{
 .hzlogo {
 	height: 150px;
 	width: 200;
+	border-radius: 25px;
 }
 
 .pfp {
 	width: 420px;
 	height: auto;
+	border-radius: 25px;
+}
+
+.blogposts{
+	width: 1140px;
+	height: auto;
+	background-color: #FAE6B1;
+	padding: 15px;
+	margin: 5px;
+	border: 10px solid #FAE6B1;
+	border-radius: 25px;
+}
+
+details{
+	width: 800px;
+	height: auto;
+	padding: 15px;
+	border: 10px solid #eed89d;
+	background-color: #eed89d;
+	margin: 5px;
+	border-radius: 25px;
+	box-shadow: 2.5px 5px #edcc72 ;
+}
+
+details a {
+	text-decoration: none;
+	color: #bc7804;
+}
+
+details a:hover {
+	color: #8c5a03;
+	text-decoration: underline;
+}
+
+table, tr, th, td {
+	border-radius: 25px;
+	border: 5px solid #eed89d;
+	padding: 5px;
+	color: #FFA101;
+	text-align: center;
+}
+
+table {
+	background-color: #eed89d;
+}
+
+tr {
+	background-color: #FAE6B1;
 }
 
 footer {
