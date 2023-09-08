@@ -115,6 +115,11 @@ tr {
 	background-color: #31525B;
 }
 
+th {
+	font-weight: bold;
+	font-size: 20px;
+}
+
 footer {
 	clear: both;
 	background-color: #31525B;
