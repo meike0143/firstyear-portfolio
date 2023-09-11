@@ -35,9 +35,8 @@ h1 {
 }
 
 article {
-	float: left;
 	background-color: #31525B;
-	width: 860px;
+	width: 1140px;
 	height: auto;
 	padding: 15px;
 	border: 10px solid #31525B ;
@@ -45,11 +44,16 @@ article {
 	border-radius: 25px;
 }
 
-.column {
-	float: left;
-	width: 420px;
-	height: auto;
-	padding: 5px;
+.flex-container{
+	display: flex;
+}
+
+.flex-child{
+	flex: 1;
+}
+
+.flex-child:first-child{
+	margin-right: 100px;
 }
 
 h2{
@@ -63,7 +67,7 @@ h2{
 }
 
 .pfp {
-	width: 420px;
+	width: 550px;
 	height: auto;
 	border-radius: 25px;
 }

@@ -45,22 +45,39 @@ nav a:hover {
 }
 
 .aside-menu {
-	float: right;
+	width: 1140px;
+	min-height: 140px;
 	background-color: #31525B;
-	width: 220px;
-	height: auto;
 	padding: 15px;
-	border: 10px solid #31525B;
 	margin: 5px;
+	border: 10px solid #31525B;
 	border-radius: 25px;
 } 
 
+.aside-menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color:#31525B;
+}
+
+.aside-menu li {
+	float: left;
+}
+  
 .aside-menu a {
+	display: block;
+	padding: 5px;
+	background-color: #31525B;
+	width: 165px;
+	text-align: center;
 	text-decoration: none;
-	color: #a19c98;
+	border: 5px solid #31525B;
+	border-radius: 25px;
+	color: #F2EBE5;
 }
 
 .aside-menu a:hover {
-	color: #817d7a;
-	text-decoration: underline;
+    background-color: #28434a;
 }
+
