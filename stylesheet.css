@@ -72,18 +72,8 @@ h2{
 	border-radius: 25px;
 }
 
-.blogposts{
-	width: 1140px;
-	height: auto;
-	background-color: #31525B;
-	padding: 15px;
-	margin: 5px;
-	border: 10px solid #31525B;
-	border-radius: 25px;
-}
-
 details{
-	width: 800px;
+	width: 1070px;
 	height: auto;
 	padding: 15px;
 	border: 10px solid #28434a;
@@ -93,7 +83,7 @@ details{
 	box-shadow: 2.5px 5px #1d3238 ;
 }
 
-details a {
+details a, article a {
 	text-decoration: none;
 	color: #a19c98;
 }
@@ -103,12 +93,23 @@ details a:hover {
 	text-decoration: underline;
 }
 
+.dashboard-green{
+	color: green;
+}
+
+.dashboard-yellow{
+	color: yellow;
+}
+
+.dashboard-red{
+	color: red;
+}
+
 table, tr, th, td {
 	border-radius: 25px;
 	border: 5px solid #28434a;
 	padding: 5px;
 	color: #F2EBE5;
-	text-align: center;
 }
 
 table {
@@ -122,6 +123,7 @@ tr {
 th {
 	font-weight: bold;
 	font-size: 20px;
+	text-align: center;
 }
 
 footer {
