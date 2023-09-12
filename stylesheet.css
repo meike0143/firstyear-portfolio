@@ -34,7 +34,7 @@ h1 {
 	font-size: 70px;
 }
 
-article {
+main {
 	background-color: #31525B;
 	width: 1140px;
 	height: auto;
@@ -92,7 +92,7 @@ details{
 	box-shadow: 2.5px 5px #1d3238 ;
 }
 
-details a, article a {
+details a, main a {
 	text-decoration: none;
 	color: #a19c98;
 }
