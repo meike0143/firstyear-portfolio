@@ -141,6 +141,27 @@ td {
 	font-size: 16px;
 }
 
+progress-meter {
+	display: block;
+	height: 40px;
+	box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 25px;
+	padding: 1px;
+	margin-right: 2rem;
+	position: relative;
+	background-color: #28434a
+  }
+  
+progress-percent {
+	display: block;
+	height: 100%;
+	border-radius: 25px;
+	width: calc(var(--progress) * 1%); 
+	background-color: IndianRed;
+	font-size: 70%;
+	color: grey;
+}
+
 footer {
 	clear: both;
 	background-color: #31525B;
