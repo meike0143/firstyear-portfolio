@@ -141,24 +141,40 @@ td {
 	font-size: 16px;
 }
 
-progress-meter {
-	background-color: #28434a;
-	display: block;
-	height: 50px;
+.progress {
+    width: 1140px;
+}
+
+.progress .bar {
+    position: relative;
+    background-color: #28434a;
+	height: 60px;
 	border-radius: 25px;
-	padding: 1px;
-	margin-right: 2rem;
-	position: relative;
-  }
-  
-progress-percent {
-	display: block;
-	height: 100%;
+}
+.progress .bar .percent {
+    color: #F2EBE5;
+    background-color: #CD5C5C;
+    width: 1%;
+	height: 60px;
 	border-radius: 25px;
-	width: calc(var(--progress) * 1%); 
-	background-color: #CD5C5C;
-	font-size: 12px;
-	color: #F2EBE5;	
+	text-align: center;
+}
+.progress .bar .ref {
+    position: absolute;
+    left: 75%;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: black;
+}
+.progress .bar .ref:before {
+    content: attr(data-ref);
+    position: absolute;
+    width: 100px;
+    left: -50px;
+    top: 100%;
+    color: #F2EBE5;
+    text-align: center;
 }
 
 footer {
