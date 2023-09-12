@@ -103,15 +103,15 @@ details a:hover {
 }
 
 .dashboard-green{
-	color: green;
+	color: #95d400;
 }
 
 .dashboard-yellow{
-	color: yellow;
+	color: #ffdd00;
 }
 
 .dashboard-red{
-	color: red;
+	color: #CD5C5C;
 }
 
 table, tr, th, td {
@@ -142,14 +142,13 @@ td {
 }
 
 progress-meter {
+	background-color: #28434a;
 	display: block;
-	height: 40px;
-	box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
+	height: 50px;
 	border-radius: 25px;
 	padding: 1px;
 	margin-right: 2rem;
 	position: relative;
-	background-color: #28434a
   }
   
 progress-percent {
@@ -157,9 +156,9 @@ progress-percent {
 	height: 100%;
 	border-radius: 25px;
 	width: calc(var(--progress) * 1%); 
-	background-color: IndianRed;
-	font-size: 70%;
-	color: grey;
+	background-color: #CD5C5C;
+	font-size: 12px;
+	color: #F2EBE5;	
 }
 
 footer {
