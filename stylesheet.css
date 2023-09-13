@@ -67,7 +67,7 @@ h3{
 
 .hzlogo {
 	height: 150px;
-	width: 200;
+	width: 200px;
 	border-radius: 25px;
 }
 
@@ -154,7 +154,7 @@ td {
 .progress .bar .percent {
     color: #F2EBE5;
     background-color: #CD5C5C;
-    width: 1%;
+    width: 50%;
 	height: 60px;
 	border-radius: 25px;
 	text-align: center;
@@ -167,6 +167,7 @@ td {
     height: 100%;
     background-color: black;
 }
+
 .progress .bar .ref:before {
     content: attr(data-ref);
     position: absolute;
