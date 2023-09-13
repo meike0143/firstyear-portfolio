@@ -66,8 +66,20 @@ h3{
 }
 
 .hzlogo {
-	height: 150px;
-	width: 200px;
+	height: 170px;
+	width: auto;
+	border-radius: 25px;
+}
+
+.hz-building {
+	height: 170px;
+	width: auto;
+	border-radius: 25px;
+}
+
+.jrcz-building {
+	height: 170px;
+	width: 310px;
 	border-radius: 25px;
 }
 
