@@ -109,7 +109,7 @@ details a, main a {
 	color: #a19c98;
 }
 
-details a:hover {
+details a:hover, main a:hover {
 	color: #817d7a;
 	text-decoration: underline;
 }
