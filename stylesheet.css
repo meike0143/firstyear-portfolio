@@ -4,8 +4,9 @@
 
 body {
 	background-color: #B3DEE5;
-	font-family: consolas, monaco, monospace;
 	color: #F2EBE5;
+	font-family: arial;
+	font-size: 16px;
 }
 
 #container {
@@ -32,6 +33,7 @@ header {
 
 h1 {
 	font-size: 70px;
+	font-family: consolas, monaco, monospace;
 }
 
 main {
@@ -59,10 +61,12 @@ main {
 h2{
 	font-weight: bold;
 	font-size: 30px;
+	font-family: consolas, monaco, monospace;
 }
 
 h3{
 	font-size: 21px;
+	font-family: consolas, monaco, monospace;
 }
 
 .hzlogo {
@@ -81,10 +85,6 @@ h3{
 	height: 170px;
 	width: 310px;
 	border-radius: 25px;
-}
-
-p{
-	font-size: 16px;
 }
 
 .pfp {
@@ -188,6 +188,14 @@ td {
     top: 100%;
     color: #F2EBE5;
     text-align: center;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol{
+	list-style-type: upper-roman;
 }
 
 footer {
