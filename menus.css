@@ -44,7 +44,7 @@ nav a:hover {
   	color: #F2EBE5;
 }
 
-.aside-menu {
+aside {
 	width: 1140px;
 	min-height: 140px;
 	background-color: #31525B;
@@ -54,18 +54,18 @@ nav a:hover {
 	border-radius: 25px;
 } 
 
-.aside-menu ul {
+aside ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 	background-color:#31525B;
 }
 
-.aside-menu li {
+aside li {
 	float: left;
 }
   
-.aside-menu a {
+aside a {
 	display: block;
 	padding: 5px;
 	background-color: #31525B;
@@ -77,7 +77,7 @@ nav a:hover {
 	color: #F2EBE5;
 }
 
-.aside-menu a:hover {
+aside a:hover {
     background-color: #28434a;
 }
 
