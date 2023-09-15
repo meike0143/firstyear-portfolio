@@ -55,7 +55,7 @@ main {
 }
 
 .flex-child:first-child{
-	margin-right: 100px;
+	margin-right: 50px;;
 }
 
 h2{
@@ -88,9 +88,30 @@ h3{
 }
 
 .pfp {
-	width: 550px;
+	width: 580px;
 	height: auto;
 	border-radius: 25px;
+}
+
+.books1 {
+	width: 170px;
+	height: auto;
+	border-radius: 25px;
+	float: left;
+}
+
+.books2 {
+	width: 170px;
+	height: auto;
+	border-radius: 25px;
+	box-align: center;
+}
+
+.books3 {
+	width: 170px;
+	height: auto;
+	border-radius: 25px;
+	float: right;
 }
 
 details{
