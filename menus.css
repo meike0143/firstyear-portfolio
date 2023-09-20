@@ -1,6 +1,6 @@
 nav { /*This is for the main menu (including all other styling with nav)*/
 	width: 1140px;
-	min-height: 40px;
+	min-height: 60px;
 	background-color: #31525B;
 	padding: 15px;
 	margin: 5px;
@@ -33,6 +33,7 @@ nav a {
 	border: 5px solid #31525B;
 	border-radius: 25px;
 	color: #F2EBE5;
+	font-size: 18px;
 }
 
 nav a:hover {
