@@ -16,12 +16,6 @@ body {
 	background-color: #B3DEE5;
 }
 
-hr {
-	border: 2px solid black ;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
 header {
 	background-color: #31525B ;	
 	width: 1140px;
@@ -48,6 +42,12 @@ main {
 	border-radius: 25px;
 }
 
+hr {
+	border: 2px solid black ;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .flex-container{
 	display: flex;
 }
@@ -71,21 +71,9 @@ h3{
 	font-family: consolas, monaco, monospace;
 }
 
-.hzlogo {
+.home-images {
 	height: 170px;
 	width: auto;
-	border-radius: 25px;
-}
-
-.hz-building {
-	height: 170px;
-	width: auto;
-	border-radius: 25px;
-}
-
-.jrcz-building {
-	height: 170px;
-	width: 310px;
 	border-radius: 25px;
 }
 
@@ -95,25 +83,11 @@ h3{
 	border-radius: 25px;
 }
 
-.books1 {
-	width: 170px;
+.books {
+	width: 33.3%;
 	height: auto;
 	border-radius: 25px;
 	float: left;
-}
-
-.books2 {
-	width: 170px;
-	height: auto;
-	border-radius: 25px;
-	box-align: center;
-}
-
-.books3 {
-	width: 170px;
-	height: auto;
-	border-radius: 25px;
-	float: right;
 }
 
 details{
@@ -224,11 +198,11 @@ ol{
 footer {
 	clear: both;
 	background-color: #31525B;
-	padding: 15px;
+	padding: 10px;
 	margin: 5px;
 	border: 10px solid #31525B;
 	height: 50px;
-	width: 1140px;
+	width: 1150px;
 	font-size: 20px;
 	font-weight: bold;
 	border-radius: 25px;
