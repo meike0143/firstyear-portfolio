@@ -48,6 +48,11 @@ hr {
 	margin-bottom: 15px;
 }
 
+p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .flex-container{
 	display: flex;
 }
@@ -69,16 +74,19 @@ h2{
 h3{
 	font-size: 21px;
 	font-family: consolas, monaco, monospace;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .home-images {
 	height: 170px;
 	width: auto;
 	border-radius: 25px;
-}
+	margin-top: 15px;
+}	
 
 .pfp {
-	width: 580px;
+	width: 565px;
 	height: auto;
 	border-radius: 25px;
 }
@@ -88,6 +96,7 @@ h3{
 	height: auto;
 	border-radius: 25px;
 	float: left;
+	margin-top: 15px;
 }
 
 details{
@@ -113,14 +122,17 @@ details a:hover, main a:hover {
 
 .dashboard-green{
 	color: #95d400;
+	margin: 0px;
 }
 
 .dashboard-yellow{
 	color: #ffdd00;
+	margin: 0px;
 }
 
 .dashboard-red{
 	color: #CD5C5C;
+	margin: 0px;
 }
 
 table, tr, th, td {
@@ -159,7 +171,9 @@ td {
     background-color: #28434a;
 	height: 60px;
 	border-radius: 25px;
+	margin-bottom: 30px;
 }
+
 .progress .bar .percent {
     color: #F2EBE5;
     background-color: #CD5C5C;
@@ -168,6 +182,7 @@ td {
 	border-radius: 25px;
 	text-align: center;
 }
+
 .progress .bar .ref {
     position: absolute;
     left: 75%;
