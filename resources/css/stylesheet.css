@@ -86,7 +86,7 @@ h3{
 }	
 
 .pfp {
-	width: 565px;
+	width: 575px;
 	height: auto;
 	border-radius: 25px;
 }
@@ -217,6 +217,37 @@ ol{
 
 .bloginformation p {
 	margin: 0px;
+}
+
+.logo {
+  border-radius: 25px;
+  height: auto;
+}
+
+.estrategy {
+  width: 500px;
+}
+
+.elloro {
+  width: 100px;
+}
+
+.statisfiteers {
+  width: 520px;
+  height: 100px;
+}
+
+.experience{
+  border-radius: 25px;
+  height: auto;
+}
+
+.python {
+  width: 480px;
+}
+
+.experiencelogo {
+  width: 650px;
 }
 
 footer {
