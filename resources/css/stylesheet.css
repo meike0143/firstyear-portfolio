@@ -9,7 +9,7 @@ body {
 	font-size: 16px;
 }
 
-#container {
+#container { 
 	width: 1200px;
 	height: auto;
 	margin: auto;
@@ -32,7 +32,7 @@ h1 {
 	font-family: consolas, monaco, monospace;
 }
 
-main {
+main { /*This is the main part of each page on the website*/
 	background-color: #31525B;
 	width: 1135px;
 	height: auto;
@@ -42,7 +42,7 @@ main {
 	border-radius: 25px;
 }
 
-hr {
+hr { /*This is used to seperate topics on the website*/
 	border: 2px solid black ;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -53,7 +53,7 @@ p {
 	margin-bottom: 15px;
 }
 
-.flex-container{
+.flex-container{ 
 	display: flex;
 }
 
@@ -78,20 +78,20 @@ h3{
 	margin-bottom: 15px;
 }
 
-.home-images {
+.home-images { /*Used on the homepage*/
 	height: 170px;
 	width: auto;
 	border-radius: 25px;
 	margin-top: 15px;
 }	
 
-.pfp {
+.pfp { /*Used on the profile page*/
 	width: 575px;
-	height: auto;
+  height: auto;
 	border-radius: 25px;
 }
 
-.books {
+.books { /*Used on the profile page*/
 	width: 33.3%;
 	height: auto;
 	border-radius: 25px;
@@ -99,7 +99,7 @@ h3{
 	margin-top: 15px;
 }
 
-details{
+details{ /*used for the blog and faq pages*/
 	width: 1070px;
 	height: auto;
 	padding: 15px;
@@ -120,7 +120,7 @@ details a:hover, main a:hover {
 	text-decoration: underline;
 }
 
-.dashboard-green {
+.dashboard-green { /*This and the other dashboard colors below are used to style the dashboard according to the legend on the site*/
 	background-color: #628b00;
 }
 
@@ -129,7 +129,7 @@ details a:hover, main a:hover {
 }
 
 .dashboard-yellow {
-	background-color: #fabb32;
+	background-color: #ffb700;
 }
 
 .dashboard-orange {
@@ -167,7 +167,7 @@ td {
 	font-size: 16px;
 }
 
-.progress {
+.progress { /*This and the other progress styling is used for the NBSA boundary*/
   width: 1140px;
 }
 
@@ -181,8 +181,8 @@ td {
 
 .progress .bar .percent {
   color: #F2EBE5;
-  background-color: #f54c4c;
-  width: 50%;
+  background-color: #ffb700;
+  width: 85%;
 	height: 60px;
 	border-radius: 25px;
 	text-align: center;
@@ -215,7 +215,7 @@ ol{
 	list-style-type: upper-roman;
 }
 
-.bloginformation p {
+.bloginformation p { 
 	margin: 0px;
 }
 
@@ -251,7 +251,6 @@ ol{
 }
 
 footer {
-	clear: both;
 	background-color: #31525B;
 	padding: 10px;
 	margin: 5px;
@@ -259,7 +258,6 @@ footer {
 	height: 50px;
 	width: 1150px;
 	font-size: 20px;
-	font-weight: bold;
 	border-radius: 25px;
 	text-align: center;
 }

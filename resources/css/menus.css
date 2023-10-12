@@ -6,8 +6,8 @@ nav { /*This is for the main menu (including all other styling with nav)*/
 	margin: 5px;
 	border: 10px solid #31525B;
 	border-radius: 25px;
-	position: sticky;
-	position: -webkit-sticky;
+	position: sticky; /*This makes the nav bar stay at the top of the screen when scrolling down.*/
+	position: -webkit-sticky;/*This makes the function above possible*/
 	top: 0px;
 	box-shadow: 2.5px 5px #1d3238 ;
 }
@@ -36,7 +36,7 @@ nav a {
 	font-size: 18px;
 }
 
-nav a:hover {
+nav a:hover { /*Highlights the button of the nav that the mouse is currently hovering over.*/
     background-color: #28434a;
 }
 
