@@ -99,7 +99,7 @@ h3{
 	margin-top: 15px;
 }
 
-details{ /*used for the blog and faq pages*/
+details{ /*used for the faq page*/
 	width: 1070px;
 	height: auto;
 	padding: 15px;
@@ -217,6 +217,17 @@ ol{
 
 .bloginformation p { 
 	margin: 0px;
+}
+
+article{ /*used for the blog page*/
+	width: 1070px;
+	height: auto;
+	padding: 15px;
+	border: 10px solid #28434a;
+	background-color: #28434a;
+	margin: 5px;
+	border-radius: 25px;
+	box-shadow: 2.5px 5px #1d3238 ;
 }
 
 .logo {
