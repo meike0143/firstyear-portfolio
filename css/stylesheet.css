@@ -120,23 +120,23 @@ details a:hover, main a:hover {
 	text-decoration: underline;
 }
 
-.dashboard-green { /*This and the other dashboard colors below are used to style the dashboard according to the legend on the site*/
+.dashboard-completed { /*This and the other dashboard colors below are used to style the dashboard according to the legend on the site*/
 	background-color: #628b00;
 }
 
-.dashboard-blue {
+.dashboard-passed {
   background-color: #2e8dcc
 }
 
-.dashboard-yellow {
+.dashboard-grading {
 	background-color: #ffb700;
 }
 
-.dashboard-orange {
+.dashboard-in-progress {
   background-color: #ff7300e0;
 }
 
-.dashboard-red {
+.dashboard-failed {
 	background-color: #f54c4c;
 }
 
@@ -181,8 +181,8 @@ td {
 
 .progress .bar .percent {
   color: #F2EBE5;
-  background-color: #ffb700;
-  width: 85%;
+  background-color: #f54c4c;
+  width: 35%;
 	height: 60px;
 	border-radius: 25px;
 	text-align: center;
