@@ -181,8 +181,8 @@ td {
 
 .progress .bar .percent {
   color: #F2EBE5;
-  background-color: #ffb700;
-  width: 95%;
+  background-color: #628b00;
+  width: 100%;
 	height: 60px;
 	border-radius: 25px;
 	text-align: center;
